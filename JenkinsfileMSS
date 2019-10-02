@@ -29,6 +29,7 @@ stage('Build')
 sh "${mvnHome}/bin/mvn clean package"
 }
 
+/*
 stage('SonarQubeReport')
 {
 sh "${mvnHome}/bin/mvn sonar:sonar"
@@ -53,4 +54,5 @@ Regards,
 Mithun Software Solutions,
 9980923226''', subject: 'Build is over', to: 'devopstrainingblr@gmail.com'
 }
+*/
 }
